@@ -1,7 +1,7 @@
 import * as jose from "https://cdnjs.cloudflare.com/ajax/libs/jose/5.1.3/index.js";
 
 (function (window) {
-  const API_URL = "https://dkyc-demos-stag-gcp.vishwamcorp.com";
+  const API_URL = "https://dkyc-demos-stag-gcp.vishwamcorp.com/v1";
   let isLoaderDisplayed = false;
 
   async function createUI() {
